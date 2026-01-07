@@ -1,13 +1,12 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
 function App() {
 	return (
-		<div>
-			<h1 className="text-red-500">React Basic</h1>
-			<ul>
-				<li>list1</li>
-				<li>list2</li>
-				<li>list3</li>
-			</ul>
-		</div>
+		<>
+			<Header />
+			<Footer />
+		</>
 	);
 }
 
